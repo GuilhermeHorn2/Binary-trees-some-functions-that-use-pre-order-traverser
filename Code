@@ -1,5 +1,4 @@
 
-
 typedef struct node{
     int data;
     struct node* esq;
@@ -59,4 +58,26 @@ void equal(p_node raiz1,p_node raiz2,int *x){
         *x = 1;
     }
 }
+
+
+
+
+
+
+
+int main(){
+    /* \n;||(or) e &&(and)*/
+    p_node raiz1 = NULL;
+    p_node raiz2 = NULL;
+    //operaçoes...
+    int x = 0;
+    equal(raiz1,raiz2,&x);
+    //se x = 1 sao iguais,se x = 0 sao diferentes
+
+
+
+    return 0;
+  }
+
+
 
